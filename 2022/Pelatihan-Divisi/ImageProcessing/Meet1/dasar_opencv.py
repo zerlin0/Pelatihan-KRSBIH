@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np # matematik matrix
 
-gmbr = cv.imread('1.jpg')
+gmbr = cv.imread('1.jpg') # Lokasi File Gambar
 print(gmbr)
 cv.imshow('Gambar Bola BGR', gmbr)
 
